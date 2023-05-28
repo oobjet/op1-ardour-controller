@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArdourMIDIBindings version="1.0.0" name="op1">
+<DeviceInfo bank-size="4"/>
+  <Binding channel="1" enc-2="1"   uri="/route/gain B1"/>
+  <Binding channel="1" enc-2="2"   uri="/route/gain B2"/>
+  <Binding channel="1" enc-2="3"   uri="/route/gain B3"/>
+  <Binding channel="1" enc-2="4"   uri="/route/gain B4"/>
+  <Binding channel="1" ctl="40" function="transport-stop" momentary="yes"/>
+  <Binding channel="1" ctl="39" function="transport-roll" momentary="yes"/>
+  <Binding channel="1" ctl="41" function="transport-start" momentary="yes"/>
+  <Binding channel="1" ctl="42" function="transport-end" momentary="yes"/>
+  <Binding channel="1" ctl="38" function="rec-enable" momentary="yes"/>
+  <Binding channel="1" ctl="52" function="loop-toggle" momentary="yes"/>
+  <Binding channel="1" ctl="15" function="next-bank" momentary="yes"/>
+  <Binding channel="1" ctl="16" function="prev-bank" momentary="yes"/>
+  <Binding channel="1" ctl="11" uri="/route/mute B1"/>
+  <Binding channel="1" ctl="12" uri="/route/mute B2"/>
+  <Binding channel="1" ctl="13" uri="/route/mute B3"/>
+  <Binding channel="1" ctl="14" uri="/route/mute B4"/>
+
+</ArdourMIDIBindings>
